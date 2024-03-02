@@ -1,0 +1,207 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#h2{
+     background-color: black; 
+     color: #ffffff;
+    
+     padding-left: 1460px;
+    position: fixed;}
+
+
+
+ ul{
+      display: flex;
+      margin-left: 0px;
+      list-style-type: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; 
+     
+}
+
+ li{
+    margin-left: 80px;
+}
+
+ a{
+           color: #f1f1f1;
+           text-decoration: none;
+           font-size: 30px;
+}
+
+
+#home{
+  font-size: 50px;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(221, 217, 217);
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+}
+
+#para{
+  font-size: 25px;
+}
+footer {
+  background-color: #0e0c0c;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p{
+  color: #f1f1f1;
+  background-color: #181717;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.image-grid li {
+  text-align: center;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+}
+#gallery{
+     display: flex;
+     margin-left: 200px;
+     margin-right: 200px;
+}
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+main {
+  padding: 20px;
+}
+
+section {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+a img {
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+  text-align: center;
+  
+}
+
+
+.food-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust spacing as needed */
+}
+
+.food-list li {
+  text-align: center;
+  margin: 10px;
+  width: 600px; /* Adjust width as needed */
+}
+
+.food-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+.food-list li img {
+  width: 100%; /* Adjust image width as needed */
+  height: 150px; /* Adjust image height as needed */
+  object-fit: cover;
+}
+
+.food-list li h2 {
+  margin-top: 5px;}
